@@ -27,9 +27,6 @@ public class UserDTO {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
-	public static void main(String[] args) throws IOException {
-		String body = Jsoup.connect("http://localhost:8888/refresh").ignoreContentType(true).ignoreHttpErrors(true).post().html();
-		System.out.println(body);
-	}
+	
 	
 }

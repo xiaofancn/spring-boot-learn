@@ -4,10 +4,10 @@
 
 
 	<parent>
-		 <groupId>org.springframework.cloud</groupId>
-         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Brixton.SR4</version>
-        <relativePath/>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-parent</artifactId>
+		<version>Brixton.SR4</version>
+		<relativePath />
 	</parent>
 
 	<groupId>org.snailteam.cloud</groupId>
@@ -40,11 +40,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-kafka</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 	</dependencies>
-
-
-
-
-
 
 </project>
